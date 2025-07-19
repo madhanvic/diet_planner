@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #66d2ce;
+  --color-secondary: #fefefe;
+}
+
+@layer base {
+  input,
+  textarea {
+    @apply focus:!outline-none;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
