@@ -11,7 +11,7 @@ function ActivePlan() {
   return isLoading || isAuthorizig ? (
     <Loader />
   ) : response?.data === null ? (
-    <p className="text-sm text-[#1e1e1e]">No Active Plans Found</p>
+    <p className="text-sm text-[#1e1e1e] p-4">No Active Plans Found</p>
   ) : (
     <div className="flex items-center justify-center h-full">
       <div className="[&_p]:text-[#1e1e1e] [&_p]:text-lg border border-primary p-6 rounded-md space-y-4">
